@@ -1,0 +1,42 @@
+@import "reset.css";
+/* Classes générales */
+
+.d-flex { display: flex ; }
+.flex-row { flex-direction: row; }
+.flex-column { flex-direction: column; }
+
+.justify-start { justify-content: flex-start; }
+.justify-center { justify-content: center; }
+.justify-end { justify-content: flex-end; }
+.justify-spacea { justify-content: space-around; }
+.justify-spaceb { justify-content: space-between; }
+
+.align-start { align-items: flex-start; }
+.align-center { align-items: center; }
+.align-end { align-items: flex-end; }
+
+.alignsend {align-self: flex-end;}
+.aligncc {align-content: center;}
+
+.bc1 { background-color : #304269; } /*bleu*/
+.bc2 { background-color: #FFB00D; } /*jaune*/
+.bc3 { background-color: #E9E9E9; } /*gris*/
+
+.cl1 {color: #fff;}
+
+.fs16 { font-size: 1.6rem;}
+.fs20 { font-size: 2rem;}
+.fs24 { font-size: 2.4rem; }
+.fs75 { font-size: 7.5rem; }
+
+.h50 { height: 50%; }
+.h100 { height: 100%; }
+
+.w100 { width: 100%; }
+
+
+
+.logo {
+text-decoration: none; 
+color: #fff;
+}

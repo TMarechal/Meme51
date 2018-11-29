@@ -1,0 +1,18 @@
+{% extends "Layout/layout.html.twig" %}
+
+{% block title %}
+    {{ parent() }} - Generator
+{% endblock %}
+
+{% block content %}
+
+{% if message != '' %}
+    <p>{{ message }}</p>
+{% endif %}
+
+<form method="POST" action="" enctype="multipart/form-data">
+    <input type="hidden" name="MAX-FILE-SIZE" value="500000">
+    <input type="file" name="meme">
+    <input type="submit" name="envoyer" value="envoyer">
+</form>
+{% endblock %}
