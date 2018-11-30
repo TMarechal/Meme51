@@ -5,16 +5,27 @@
 {% endblock %}
 
 {% block content %}
-    <div>
-        <div class="d-flex justify-center align-center">
-	
-            <input type="submit" action="#" value="Générateur">
-            
+
+    <div class="d-flex justify-center w100 p20">
+        <a class="logo" href="./generateur"><div class="p20 bc2 w250px  fs24 text-center">Générateur</div></a>
     </div>
+
+    <section class="d-flex flex-column justify-start align-center w100 bc3">
+
+        <h2 class="fs24 p20">Derniers memes</h2>
+    
+        <div class="d-flex flex-row justify-spacea w75">
+
         {% if images|length > 0 %}
             {% for image in images %}
-                <p><img src="./assets/upload/{{ image.NAME }}" alt=""></p>
+                <article class="w25 p20">
+                    <img class="w100" src="./assets/upload/{{ image.NAME }}" alt="">
+                </article>
             {% endfor %}
         {% endif %}
-    </div> 
+
+        </div>
+
+    </section>
+
 {% endblock %}

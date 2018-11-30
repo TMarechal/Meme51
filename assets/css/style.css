@@ -1,4 +1,5 @@
 @import "reset.css";
+
 /* Classes générales */
 
 .d-flex { display: flex ; }
@@ -18,6 +19,9 @@
 .alignsend {align-self: flex-end;}
 .aligncc {align-content: center;}
 
+.text-center{ text-align: center;}
+.text-deco-n{ text-decoration: none;}
+
 .bc1 { background-color : #304269; } /*bleu*/
 .bc2 { background-color: #FFB00D; } /*jaune*/
 .bc3 { background-color: #E9E9E9; } /*gris*/
@@ -30,13 +34,52 @@
 .fs75 { font-size: 7.5rem; }
 
 .h50 { height: 50%; }
+.h75 { height: 75%; }
 .h100 { height: 100%; }
 
+.h50p { height: 50px; }
+.h150p { height: 150px; }
+
+.w40p{ width: 40px;}
+.w50p{ width: 50px;}
+.w175p{ width: 175px;}
+.w250p{ width: 250px;}
+
+.w25 { width: 25%; }
+.w50 { width: 50%; }
+.w75 { width: 75%; }
 .w100 { width: 100%; }
 
+.p10 { padding: 10px; }
+.p20{ padding: 20px; }
 
+.pt10 { padding-top: 10px; }
+.pt20 { padding-top: 20px; }
+
+.pr10 { padding-right: 10px; }
+.pr20 { padding-right: 20px; }
+
+.pb10 { padding-bottom: 10px; }
+.pb20 { padding-bottom: 20px; }
+
+.pl10 { padding-left: 10px; }
+
+/************************************/
+
+label div:hover{ background-color: blue; }
+
+/**************************************/
+
+.hidden { display:none; } 
+
+/*************************************/
+
+.custom {
+    min-height: calc(100vh - 150px - 50px);
+}
 
 .logo {
-text-decoration: none; 
+text-decoration:  none; 
 color: #fff;
 }
+
