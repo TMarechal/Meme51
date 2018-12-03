@@ -12,6 +12,7 @@
     <section class="w75 d-flex justify-center align-center">
         <div class="w75 p20">
             <img id="preview" class="w100">
+<<<<<<< HEAD
             
         </div>
 
@@ -90,3 +91,24 @@
 
 </div>
 {% endblock %}
+=======
+        </div>
+    </section>
+
+    <section class="w25 d-flex flex-column justify-center align-center bc3">
+        {% if message != '' %}
+            <p>{{ message }}</p>
+        {% endif %}
+
+        <form id="upload" class="w100 d-flex flex-row justify-center align-center bc3" method="POST" action="" enctype="multipart/form-data">
+            <input type="hidden" name="MAX-FILE-SIZE" value="500000">
+            <label for="meme"><div class="p10 bc2">UPLOAD</div></label>
+            <input type="file" id="meme" name="meme" class="hidden">
+            <input type="submit" name="envoyer" value="envoyer" class="p10 bc2">
+        </form>
+
+    </section>
+
+</div>
+{% endblock %}
+>>>>>>> 260c706798689d1f71ae8013dd05ac6ece7511b3

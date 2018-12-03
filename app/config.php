@@ -7,8 +7,8 @@ mb_internal_encoding('UTF-8');
 date_default_timezone_set("Europe/Paris");
 header('Content-type: text/html; charset=utf-8');
 
-define('DB_DSN', 'mysql:dbname=meme51;host=localhost');
-define('DB_USER', 'tmarechal');
-define('DB_PASSWORD', 'c28a64d484f088');
+define('DB_DSN', 'mysql:dbname=meme51;host=localhost:3306');
+define('DB_USER', 'clementinel');
+define('DB_PASSWORD', 'online@2017');
 
 require_once 'functions.common.php';
