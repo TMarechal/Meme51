@@ -41,14 +41,11 @@
 .h50p { height: 50px; }
 .h150p { height: 150px; }
 
-<<<<<<< HEAD
 .w40p{ width: 40px;}
 .w50p{ width: 50px;}
 .w175p{ width: 175px;}
 .w250p{ width: 250px;}
 
-=======
->>>>>>> 260c706798689d1f71ae8013dd05ac6ece7511b3
 .w25 { width: 25%; }
 .w50 { width: 50%; }
 .w75 { width: 75%; }
@@ -67,7 +64,6 @@
 .pb20 { padding-bottom: 20px; }
 
 .pl10 { padding-left: 10px; }
-<<<<<<< HEAD
 
 /************************************/
 
@@ -79,8 +75,6 @@ label div:hover{ background-color: blue; }
 
 /*************************************/
 
-=======
-
 /************************************/
 
 label div:hover{ background-color: blue; }
@@ -91,7 +85,6 @@ label div:hover{ background-color: blue; }
 
 /*************************************/
 
->>>>>>> 260c706798689d1f71ae8013dd05ac6ece7511b3
 .custom {
     min-height: calc(100vh - 150px - 50px);
 }
